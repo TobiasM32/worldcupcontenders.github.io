@@ -16,5 +16,6 @@ body, header, nav, ul, main, footer, img, h1 {
 
 /* Styles for image content */
 img {
-  max-width: 90%;
+	max-width: 95%;
+	min-width: 80%
 }
