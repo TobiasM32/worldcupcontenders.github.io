@@ -4,15 +4,17 @@ Date: 03/07/2026
 File Name: styles.css
 */
 
-/* source: Chapter 6 Lab 1: Creating Media Queries for the Strike a Chord Website 
-https://urban-space-potato-x5qqww9x9r9p2pxv9.github.dev/?folder=%2Fworkspaces%2F9780357423844_minnick-web-design-9e-fab4a993-3938-4cd8-9e9d-190e6f09676f%2Fchapter6%2Fex01%2Fstudent
-*/
-/* CSS Reset: takes away the default styling from the web browser */
+/* CSS Reset: */
 body, header, nav, ul, main, footer, img, h1 {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
+
+/* style rules for body content */
+body {
+	padding-top: 40px;
+}	
 
 /* Style rules for images */
 img {
