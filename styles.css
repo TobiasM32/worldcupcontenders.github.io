@@ -20,6 +20,7 @@ body {
 img {
 	max-width: 95%;
 	min-width: 80%;
+	align-content: center;
 }
 
 /* Styles rules for header content */
