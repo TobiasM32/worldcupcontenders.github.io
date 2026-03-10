@@ -25,6 +25,13 @@ nav {
 	text-align: center;
 }
 
+nav li {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    background-color: #373684;
+}
+
 /* Style rules for images */
 img {
 	display: block;
