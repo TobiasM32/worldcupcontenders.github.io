@@ -16,7 +16,10 @@ body {
 	padding-top: 40px;
 }	
 
-
+/* Style rules for nav content */
+nav {
+	text-align: center;
+}	
 
 /* Style rules for images */
 img {
