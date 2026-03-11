@@ -19,7 +19,7 @@ body {
 }	
 
 /* Style rules for nav content */
-/*nav {
+nav {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -28,7 +28,7 @@ body {
 	text-align: center;
 	margin-bottom: 1em;
 	background-color: #ADD8E6;
-}*/
+}
 
 nav ul {
 	position: fixed;
