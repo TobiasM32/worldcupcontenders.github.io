@@ -90,8 +90,7 @@ h1 {
 
     /* Desktop Viewport: Style rules for header */
     header {
-        width: 25%;
-        float: left;
+        width: 50%;
     }
 
     /* Desktop Viewport: Style rules for nav */
