@@ -29,7 +29,14 @@ nav li {
     display: block;
     text-align: center;
     font-size: 2em;
-    background-color: #373684;
+    background-color: #ADD8E6;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 /* Style rules for images */
