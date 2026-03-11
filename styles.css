@@ -73,11 +73,6 @@ h1 {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 488px), print {
 
-    /* Style rules to show tablet-desktop class */
-    .tablet-desktop {
-        display: block;
-    }
-
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         display: inline-block;
@@ -86,8 +81,13 @@ h1 {
 
     nav li a {
         padding: 0.1em 1em;
+		margin-bottom: 0.7em;
     }
 
+	/* Tablet Viewport: styles for img */
+	img {
+		margin-top: 0.1em;
+		margin-bottom: 1em;
 }
 
 /* Media Query for Desktop Viewport */
@@ -101,6 +101,8 @@ h1 {
 	/* Desktop Viewport: Style rules for img */
 	img {
 		max-width: 80%
+		margin-top: 0.1em;	
+		margin-bottom: 1.5em;
 	}
 	
     /* Desktop Viewport: Style rules for nav */
