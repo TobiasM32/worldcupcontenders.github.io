@@ -41,7 +41,6 @@ nav li a {
 
 /* Style rules for images */
 img {
-	padding-top: 1.5em
 	display: block;
 	width: 220px
 	height: 120px;
@@ -94,6 +93,11 @@ h1 {
         width: 50%;
     }
 
+	/* Desktop Viewport: Style rules for img */
+	img {
+		max-width: 80%
+	}
+	
     /* Desktop Viewport: Style rules for nav */
     nav li {
         border-radius: 0;
