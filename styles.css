@@ -31,6 +31,7 @@ nav {
 nav ul {
 	background-color: #ADD8E6;
 	margin-bottom: 1em;
+	max-height: 30%
 }
 
 nav li {
