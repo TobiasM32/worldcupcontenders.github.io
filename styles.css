@@ -26,14 +26,14 @@ nav {
 }
 
 nav li {
-    display: block;
+    display: inline-block;
     text-align: center;
     font-size: 2em;
     background-color: #ADD8E6;
 }
 
 nav li a {
-    display: block;
+    display: inline-block;
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
