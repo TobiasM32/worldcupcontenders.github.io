@@ -28,6 +28,7 @@ nav {
 
 nav ul {
 	background-color: #ADD8E6;
+	margin-bottom: 1em;
 }
 
 nav li {
@@ -79,9 +80,12 @@ h1 {
         margin: 0.5%;
     }
 
+	nav ul {
+		margin-bottom: 0.7em;
+	}
+	
     nav li a {
         padding: 0.1em 1em;
-		margin-bottom: 0.7em;
     }
 
 	/* Tablet Viewport: styles for img */
