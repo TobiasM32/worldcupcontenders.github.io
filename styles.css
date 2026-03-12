@@ -3,6 +3,207 @@ Author: Tobias McMillan
 Date: 03/07/2026
 File Name: styles.css
 */
+/* 
+Author: Tobias McMillan
+Date: 03/07/2026
+File Name: styles.css
+*/
+
+/* CSS Reset: */
+body, header, nav, ul, main, footer, img, h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+/* style rules for body content */
+body {
+	padding-top: 110px;
+	align-content: center;
+}	
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+}	
+
+div {
+	list-syle-type: none;
+	margin-top: 5%;
+	position: sticky;
+	top: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* Style rules for nav content */
+nav {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;   /* this prevents overflow */
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar li a {
+  padding: 5px 10px;
+  display: block;
+}
+
+.navbar li {
+	list-style: none;
+	font-size: 140%;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 1px solid #fff
+}
+
+nav li a {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+        color: #4424d6;
+        background-color: #e5e0fa;
+    }
+
+/* Style rules for images */
+img {
+	display: block;
+	width: 80%;
+	height: 35%;
+	/* margin-bottom: 1.5em; */
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: tomato;
+}
+
+/* Styles rules for header content */
+header {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 2% 0% 2% 0%
+}
+
+footer {
+	text-align: center;
+	font-size: 0.7em;
+	clear: left;
+}	
+
+h1 {
+	margin-left: 0px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/* Media Query for Small Mobile Viewport */
+@media screen and (min-width: 176px;), print {
+	/* Small Viewport: Styles for h1 content */
+	h1 {
+		font-size: 0.8em;
+		padding-right: 5%;
+	}
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 476px), print {
+
+	/* Tablet Viewport: Style rules for header area */
+	header {
+		width: 80%;
+	}
+
+	h1 {
+		font-size: 60%;
+		margin-left: 20%
+	}
+	
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        margin: 0.5%;
+    }
+
+	.nav-link {
+		font-size: 80%;
+	}
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 714px), print {
+
+    /* Desktop Viewport: Style rules for header */
+    header {
+        width: 80%;
+    }
+	h1 {
+		font-size: 1.7em;
+		align-content: center;
+		padding-left: %;
+	}
+	
+	/* Desktop Viewport: Style rules for img */
+	img {
+		max-width: 80%	
+	}
+	
+    /* Desktop Viewport: Style rules for nav */
+    nav li {
+        border-radius: 0;
+    }
+
+    nav li a {
+        padding: 1em;
+    }
+
+	.nav-link {
+	
+	}
+
+    /* Desktop Viewport: Style rules for the main content */
+    main {
+		text-align: center;
+        border-style: none;
+        margin-bottom: 1em 0;
+        overflow: auto;
+    }
+
+    /* Desktop Viewport: Style rule for footer */
+    footer {
+        clear: left;
+    }
+
+}
+
+/* Media Query for Large Desktop */
+@media screen and (min-width: 1441px) {
+    .nav-link {
+		font-size: 100%;
+	}
+}
 
 /* CSS Reset: */
 body, header, nav, ul, main, footer, img, h1 {
