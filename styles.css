@@ -20,14 +20,7 @@ body {
 
 p {
 	text-align: center;
-}
-
-/* Styles for div content */
-/* https://www.w3schools.com/cssref/css3_pr_flex-wrap.php */
-div {
-	display: flex;
-	flex-wrap: wrap;
-}
+}	
 
 /* Style rules for nav content */
 nav {
@@ -114,7 +107,6 @@ h1 {
 
 	/* Tablet Viewport: styles for img */
 	img {
-		margin-top: 0.1em;
 		margin-bottom: 1em;
 }
 
