@@ -115,6 +115,10 @@ h1 {
 	font-weight: bold;
 }
 
+.fa-solid fa-futbol {
+	margin: 0px 7px;
+}
+
 /* Media Query for Small Mobile Viewport */
 @media screen and (min-width: 176px;), print {
 	/* Small Viewport: Styles for h1 content */
