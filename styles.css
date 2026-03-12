@@ -112,6 +112,13 @@ h1 {
         padding: 0.1em 1em;
     }
 
+	.nav-link {
+	display: flex;
+    flex-wrap: wrap;   /* this prevents overflow */
+    justify-content: center;
+	font-size: 90%
+    gap: 10px;
+	}
 	/* Tablet Viewport: Style rules for img
 	
 }
@@ -143,11 +150,19 @@ h1 {
         display: inline-block;
         padding: 0.7em;
     }
-
+	
     nav li a:hover {
         color: #4424d6;
         background-color: #e5e0fa;
     }
+
+	.nav-link {
+	display: flex;
+    flex-wrap: wrap;   /* this prevents overflow */
+    justify-content: center;
+	font-size: 90%
+    gap: 10px;
+	}
 
     /* Desktop Viewport: Style rules for the main content */
     main {
