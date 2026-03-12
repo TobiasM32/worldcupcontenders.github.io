@@ -30,7 +30,7 @@ nav {
 	background-color: #ADD8E6;
 }
 
-nav ul {
+.navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
