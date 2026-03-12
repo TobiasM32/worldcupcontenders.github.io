@@ -24,6 +24,14 @@ p {
 	max-width: 60%;
 }	
 
+div {
+	list-syle-type: none;
+	position: sticky;
+	top: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
 /* Style rules for nav content */
 nav {
 	display: block;
