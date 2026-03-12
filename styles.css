@@ -20,9 +20,9 @@ body {
 }	
 
 p {
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 70%;
-	padding-left: 17%
 }	
 
 div {
@@ -42,7 +42,7 @@ nav {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 1em;
-	background-color: #ADD8E6;
+	background-color: #000;
 }
 
 .navbar {
@@ -54,7 +54,7 @@ nav {
 
 .navbar li a {
   padding: 5px 10px;
-  display: block;     /* makes the clickable area consistent */
+  display: block;
 }
 
 .navbar li {
@@ -67,7 +67,7 @@ nav li {
     text-align: center;
     font-size: 1.5em;
     border-radius: 5px;
-    border: 1px solid #ADD8E6
+    border: 1px solid #fff
 }
 
 nav li a {
@@ -76,6 +76,11 @@ nav li a {
     padding: 5px 10px;
     text-decoration: none;
 }
+
+nav li a:hover {
+        color: #4424d6;
+        background-color: #e5e0fa;
+    }
 
 /* Style rules for images */
 img {
@@ -102,12 +107,15 @@ footer {
 h1 {
 	font-family: sans-serif;
 	font-weight: bold;
-	padding-left: 20%
 }
 
-/* Media Query for Extra Small Viewport */
+/* Media Query for Small Mobile Viewport */
 @media screen and (min-width: 176px;), print {
-	
+	/* Small Viewport: Styles for h1 content */
+	h1 {
+		font-size: 0.8em;
+		padding-right: 5%;
+	}
 }
 
 /* Media Query for Tablet Viewport */
@@ -119,29 +127,22 @@ h1 {
 	}
 
 	h1 {
-		font-size: 1.4em;
+		font-size: 60%;
+		margin-left: 20%
 	}
-
+	
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         margin: 0.5%;
     }
-	
-    nav li a {
-        padding: 0.1em 1em;
-    }
 
 	.nav-link {
-	display: flex;
-    flex-wrap: wrap;   /* this prevents overflow */
-    justify-content: center;
-	font-size: 85%;
-    gap: 10px;
+		font-size: 80%;
 	}
 }
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 776px), print {
+@media screen and (min-width: 798px), print {
 
     /* Desktop Viewport: Style rules for header */
     header {
@@ -150,10 +151,6 @@ h1 {
 	h1 {
 		text-align: center;
 		padding-left: 20%
-	}
-
-	p {
-		margin-left: 18%;
 	}
 	
 	/* Desktop Viewport: Style rules for img */
@@ -169,18 +166,9 @@ h1 {
     nav li a {
         padding: 1em;
     }
-	
-    nav li a:hover {
-        color: #4424d6;
-        background-color: #e5e0fa;
-    }
 
 	.nav-link {
-	display: flex;
-    flex-wrap: wrap;   /* this prevents overflow */
-    justify-content: center;
-	font-size: 90%;
-    gap: 10px;
+	
 	}
 
     /* Desktop Viewport: Style rules for the main content */
@@ -200,10 +188,7 @@ h1 {
 
 /* Media Query for Large Desktop */
 @media screen and (min-width: 1441px) {
-    #container {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .nav-link {
+		font-size: 100%;
+	}
 }
