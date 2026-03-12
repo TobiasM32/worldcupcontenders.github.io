@@ -15,7 +15,7 @@ body, header, nav, ul, main, footer, img, h1 {
 
 /* style rules for body content */
 body {
-	padding-top: 200px;
+	padding-top: 160px;
 }	
 
 p {
@@ -62,7 +62,6 @@ nav li a {
 
 /* Style rules for images */
 img {
-	padding-top: 50px;
 	display: block;
 	width: 80%;
 	height: 35%;
