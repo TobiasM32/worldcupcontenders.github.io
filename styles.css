@@ -18,6 +18,9 @@ body {
 	padding-top: 200px;
 }	
 
+p {
+	text-align: center;
+
 /* Style rules for nav content */
 nav {
 	position: fixed;
