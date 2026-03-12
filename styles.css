@@ -21,6 +21,14 @@ body {
 p {
 	text-align: center;
 }
+
+/* Styles for div content */
+/* https://www.w3schools.com/cssref/css3_pr_flex-wrap.php */
+div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /* Style rules for nav content */
 nav {
 	position: fixed;
