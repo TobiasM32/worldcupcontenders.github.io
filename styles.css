@@ -34,6 +34,15 @@ nav {
 	padding: 5px 0;
 }
 
+.navbar li a {
+  padding: 5px 10px;  /* reduce padding to shrink items */
+  display: block;     /* makes the clickable area consistent */
+}
+
+.navbar li {
+  list-style: none;
+}
+
 nav li {
     display: inline-block;
     text-align: center;
