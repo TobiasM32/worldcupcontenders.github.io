@@ -113,7 +113,8 @@ h1 {
 	}
 
 	h1 {
-		
+		padding-left: 10%;
+	}	
 
     /* Tablet Viewport: Style rules for nav area */
     nav li {
