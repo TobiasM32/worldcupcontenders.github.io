@@ -37,6 +37,7 @@ nav {
 
 .navbar {
 	padding: 5px 0;
+	font-size: 80%;
 }
 
 .navbar li a {
@@ -107,9 +108,8 @@ h1 {
         padding: 0.1em 1em;
     }
 
-	.navbar {
-		font-size: 0.4em
-	}
+	/* Tablet Viewport: Style rules for img
+	
 }
 
 /* Media Query for Desktop Viewport */
