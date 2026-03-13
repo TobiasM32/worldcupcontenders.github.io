@@ -63,8 +63,7 @@ nav li {
 }
 
 nav li a {
-    display: inline-block;
-    color: #fff;
+	color: #fff;
     padding: 5px 10px;
     text-decoration: none;
 }
@@ -72,6 +71,7 @@ nav li a {
 nav li a:hover {
         color: #4424d6;
         background-color: #e5e0fa;
+		border-radius: 10px;
     }
 
 /* Style rules for images */
@@ -120,31 +120,51 @@ h1 {
 	}
 }
 
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 476px), print {
+/* Media Query for Large Tablet Viewport */
+@media screen and (min-width: 594px), print {
 
-	/* Tablet Viewport: Style rules for header area */
+	/* Large Tablet Viewport: Style rules for header area */
 	header {
 		width: 80%;
 	}
-
+	
 	h1 {
-		font-size: 60%;
+		font-size: 100%;
 		margin-left: 20%
 	}
+
+	/* Large Tablet Viewport: Style rules for main content */
+	main {
+		font-size: 80%;
+	}
 	
-    /* Tablet Viewport: Style rules for nav area */
+    /* Large Tablet Viewport: Style rules for nav area */
     nav li {
         margin: 0.5%;
     }
 
 	.nav-link {
-		font-size: 80%;
+		font-size: 55%;
 	}
 }
 
+/* Media Query for Small Desktop Viewport */
+@media screen and (min-width: 700px), print {
+	
+	/* Small Desktop Viewport: Styles for .nav-link*/
+	.nav-link {
+		font-size: 70%;
+	}
+
+	/* Large Tablet Viewport: Style rules for main content */
+	main {
+		font-size: 90%;
+	}
+}
+
+
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 714px), print {
+@media screen and (min-width: 817px), print {
 
     /* Desktop Viewport: Style rules for header */
     header {
@@ -153,7 +173,6 @@ h1 {
 	h1 {
 		font-size: 1.7em;
 		align-content: center;
-		padding-left: %;
 	}
 	
 	/* Desktop Viewport: Style rules for img */
@@ -161,17 +180,14 @@ h1 {
 		max-width: 80%	
 	}
 	
-    /* Desktop Viewport: Style rules for nav */
-    nav {
-		padding: ;
-	}
-
+    /* Desktop Viewport: Style rules for .nav-bar content */
 	.nav-link {
 		font-size: 90%;
 	}
 
     /* Desktop Viewport: Style rules for the main content */
     main {
+		font-size: 100%;
 		text-align: center;
         border-style: none;
         margin-bottom: 1em 0;
@@ -186,7 +202,7 @@ h1 {
 }
 
 /* Media Query for Large Desktop */
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1400px) {
     .nav-link {
 		font-size: 100%;
 	}
