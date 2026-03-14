@@ -91,48 +91,31 @@ header {
 	margin: 2% 0% 2% 0%
 }
 
+h1 {
+	margin-left: 0px;
+	font-family: 'Maderon', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+/* Styles for footer content */
 footer {
 	text-align: center;
 	font-size: 0.7em;
 	clear: left;
 }	
 
-h1 {
-	margin-left: 0px;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 2em;
-}
-
+/* Styles for .fa-solid .fa-futbol classes */
 .fa-solid .fa-futbol {
 	margin: 0px 7px;
 }
 
-/* Media Query for Extra Small Mobile Viewport */
+/* Media Query for Small Mobile Viewport */
 @media screen and (max-width: 199px), print {
 
 	body {
 		margin-top: 40px;
 	}
-
-	/* Quantum Viewport: Style rules for header area */
-	h1 {
-		font-size: 90%;
-	}
-
-	/* Quantum Viewport: Style rules for main content */
-	main {
-		font-size: 70%;
-	}
-	
-	/* Quantum Viewport: Style rules for .nav-link content */
-	.nav-link {
-		font-size: 1%;
-	}
-}
-
-/* Media Query for Small Mobile Viewport */
-@media screen and (min-width: 200px), print {
 
 	/* Small Mobile Viewport: Style rules for header area */
 	h1 {
@@ -144,43 +127,63 @@ h1 {
 		font-size: 70%;
 	}
 	
-	/* Small Mobile Viewport: Style rules for .nav-link content */
+	/* Small Mobile Viewport: Style rules for .nav-link class content */
 	.nav-link {
 		font-size: 1%;
 	}
 }
 
-/* media Query for Mobile Viewport */
-@media screen and (min-width: 303px), print {
+/* Media Query for Mobile Viewport */
+@media screen and (min-width: 200px), print {
+
+	/* Mobile Viewport: Style rules for header area */
+	h1 {
+		font-size: 90%;
+	}
+
 	/* Mobile Viewport: Style rules for main content */
 	main {
 		font-size: 70%;
 	}
+	
+	/* Mobile Viewport: Style rules for .nav-link class content */
+	.nav-link {
+		font-size: 1%;
+	}
+}
 
-	/* Mobile Viewport: Style rules for .nav-link content */
+/* Media Query for Large Mobile Viewport */
+@media screen and (min-width: 303px), print {
+	/* Large Mobile Viewport: Style rules for main content */
+	main {
+		font-size: 70%;
+	}
+
+	/* Large Mobile Viewport: Style rules for .nav-link class content */
 	.nav-link {
 		font-size: 20%;
 	}
 }
 
-/* Media Query for Large Mobile Viewport */
+/* Media Query for Tablet Viewport */
 @media screen and (min-width: 431px), print {
 
-	/* Large Mobile Viewport: Style rules for header area */
+	/* Tablet Viewport: Style rules for header area */
 	h1 {
 		font-size: 100%;
 	}
 	
-	/* Large Mobile Viewport: Style rules for header area */
+	/* Tablet Viewport: Style rules for header area */
 	main {
 		font-size: 75%;
 	}
 	
-	/* Large Mobile Viewport: Style rules for header area */
+	/* Tablet Viewport: Style rules for header area */
 	nav li {
         margin: 0.5%;
     }
 
+	/* Tablet Viewport: Style rules for .nav-link class content */
 	.nav-link {
 		font-size: 40%;
 	}
@@ -209,6 +212,7 @@ h1 {
         margin: 0.5%;
     }
 
+	
 	.nav-link {
 		font-size: 55%;
 	}
@@ -269,7 +273,8 @@ h1 {
 
 /* Media Query for Large Desktop */
 @media screen and (min-width: 1400px) {
-    .nav-link {
+   /* Large Desktop Viewport: Style rules for .nav-link class content */
+	.nav-link {
 		font-size: 100%;
 	}
 }
