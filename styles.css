@@ -51,7 +51,6 @@ nav {
 
 .navbar li a {
 	padding: 5px 10px;
-	display: block;
 }
 
 nav li {
@@ -89,8 +88,6 @@ img {
 header {
 	display: block;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 	margin: 2% 0% 2% 0%
 }
 
@@ -170,12 +167,12 @@ h1 {
 		font-size: 100%;
 	}
 	
-/* Large Mobile Viewport: Style rules for header area */
+	/* Large Mobile Viewport: Style rules for header area */
 	main {
 		font-size: 75%;
 	}
 	
-/* Large Mobile Viewport: Style rules for header area */
+	/* Large Mobile Viewport: Style rules for header area */
 	nav li {
         margin: 0.5%;
     }
