@@ -120,6 +120,29 @@ h1 {
 	}
 }
 
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 431px), print {
+
+	/* Tablet Viewport: Style rules for header area */
+	h1 {
+		font-size: 100%;
+	}
+	
+	/* Tablet Viewport: Style rules for main content */
+	main {
+		font-size: 75%;
+	}
+	
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        margin: 0.5%;
+    }
+
+	.nav-link {
+		font-size: 40%;
+	}
+} 
+
 /* Media Query for Large Tablet Viewport */
 @media screen and (min-width: 594px), print {
 
