@@ -111,30 +111,72 @@ h1 {
 	margin: 0px 7px;
 }
 
-/* Media Query for Small Mobile Viewport */
-@media screen and (min-width: 176px;), print {
-	/* Small Viewport: Styles for h1 content */
+/* Media Query for Quantum Viewport */
+@media screen and (max-width: 199px), print {
+
+	/* Quantum Viewport: Style rules for header area */
 	h1 {
-		font-size: 0.8em;
-		padding-right: 5%;
+		font-size: 90%;
+	}
+
+	/* Quantum Viewport: Style rules for main content */
+	main {
+		font-size: 70%;
+	}
+	
+	/* Quantum Viewport: Style rules for .nav-link content */
+	.nav-link {
+		font-size: 1%;
 	}
 }
 
-/* Media Query for Tablet Viewport */
+/* Media Query for Small Mobile Viewport */
+@media screen and (min-width: 200px), print {
+
+	/* Small Mobile Viewport: Style rules for header area */
+	h1 {
+		font-size: 90%;
+	}
+
+	/* Small Mobile Viewport: Style rules for main content */
+	main {
+		font-size: 70%;
+	}
+	
+	/* Small Mobile Viewport: Style rules for .nav-link content */
+	.nav-link {
+		font-size: 1%;
+	}
+}
+
+/* media Query for Mobile Viewport */
+@media screen and (min-width: 303px), print {
+	/* Mobile Viewport: Style rules for main content */
+	main {
+		font-size: 70%;
+	}
+
+	/* Mobile Viewport: Style rules for .nav-link content */
+	.nav-link {
+		font-size: 20%;
+	}
+}
+
+/* Media Query for Large Mobile Viewport */
 @media screen and (min-width: 431px), print {
 
-	/* Tablet Viewport: Style rules for header area */
+	/* Large Mobile Viewport: Style rules for header area */
 	h1 {
 		font-size: 100%;
 	}
 	
-	/* Tablet Viewport: Style rules for main content */
+/* Large Mobile Viewport: Style rules for header area */
 	main {
 		font-size: 75%;
 	}
 	
-    /* Tablet Viewport: Style rules for nav area */
-    nav li {
+/* Large Mobile Viewport: Style rules for header area */
+	nav li {
         margin: 0.5%;
     }
 
@@ -143,10 +185,10 @@ h1 {
 	}
 } 
 
-/* Media Query for Large Tablet Viewport */
+/* Media Query for Extra Large Mobile Viewport */
 @media screen and (min-width: 594px), print {
 
-	/* Large Tablet Viewport: Style rules for header area */
+	/* Extra Large Mobile Viewport: Style rules for header area */
 	header {
 		width: 80%;
 	}
