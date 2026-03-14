@@ -108,8 +108,12 @@ h1 {
 	margin: 0px 7px;
 }
 
-/* Media Query for Quantum Viewport */
+/* Media Query for Extra Small Mobile Viewport */
 @media screen and (max-width: 199px), print {
+
+	body {
+		margin-top: 40px;
+	}
 
 	/* Quantum Viewport: Style rules for header area */
 	h1 {
@@ -182,10 +186,10 @@ h1 {
 	}
 } 
 
-/* Media Query for Extra Large Mobile Viewport */
+/* Media Query for Large Tablet Viewport */
 @media screen and (min-width: 594px), print {
 
-	/* Extra Large Mobile Viewport: Style rules for header area */
+	/* Large Tablet Viewport: Style rules for header area */
 	header {
 		width: 80%;
 	}
@@ -218,7 +222,7 @@ h1 {
 		font-size: 70%;
 	}
 
-	/* Large Tablet Viewport: Style rules for main content */
+	/* Small Desktop Viewport: Style rules for main content */
 	main {
 		font-size: 90%;
 	}
