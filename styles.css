@@ -5,7 +5,7 @@ File Name: styles.css
 */
 
 /* CSS Reset: */
-body, header, nav, ul, main, footer, img, h1 {
+body, header, nav, ul, main, footer, img, h1, h2, section, article, aside {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -98,6 +98,15 @@ h1 {
 	font-size: 2em;
 }
 
+h2 {
+	text-align: center;
+}
+
+/* style rules for article content */
+article {
+	margin: 2%;
+}
+
 /* Styles for footer content */
 footer {
 	text-align: center;
@@ -122,6 +131,10 @@ footer {
 		font-size: 90%;
 	}
 
+	h2 {
+		font-size: 90%;
+	}
+
 	/* Small Mobile Viewport: Style rules for main content */
 	main {
 		font-size: 70%;
@@ -139,6 +152,10 @@ footer {
 	/* Mobile Viewport: Style rules for header area */
 	h1 {
 		font-size: 90%;
+	}
+
+	h2 {
+		font-size: 100%;
 	}
 
 	/* Mobile Viewport: Style rules for main content */
@@ -172,6 +189,10 @@ footer {
 	h1 {
 		font-size: 100%;
 	}
+
+	h2{
+		font-size: 100%
+	}
 	
 	/* Tablet Viewport: Style rules for header area */
 	main {
@@ -200,6 +221,10 @@ footer {
 	h1 {
 		font-size: 100%;
 		margin-left: 20%
+	}
+
+	h2 {
+		font-size: 120%;
 	}
 
 	/* Large Tablet Viewport: Style rules for main content */
@@ -243,6 +268,10 @@ footer {
 	h1 {
 		font-size: 1.7em;
 		align-content: center;
+	}
+
+	h2 {
+		font-size: 1.5em;
 	}
 	
 	/* Desktop Viewport: Style rules for img */
