@@ -116,6 +116,8 @@ aside {
 	text-align: center;
 	font-size: 80%;
 	font-style: italic;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 /* Styles for footer content */
