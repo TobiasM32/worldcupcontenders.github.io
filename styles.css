@@ -102,9 +102,20 @@ h2 {
 	text-align: center;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
 /* style rules for article content */
 article {
 	margin: 2%;
+}
+
+aside {
+	text-align: center;
+	font-size: 80%;
+	font-style: italic;
 }
 
 /* Styles for footer content */
