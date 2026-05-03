@@ -113,6 +113,16 @@ h2 {
 	grid-template-columns: auto auto;
 }
 
+/* style rules for table content */
+table {
+	max-width: 85%;
+}
+
+#videos, iframe {
+	width: 100%;
+	height: 100%;
+}
+
 /* style rules for article content */
 article {
 	margin: 2%;
