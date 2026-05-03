@@ -84,6 +84,11 @@ img {
 	margin-right: auto;
 }
 
+figure {
+	font-size: 80%;
+	text-align: center;
+}
+
 /* Styles rules for header content */
 header {
 	display: block;
