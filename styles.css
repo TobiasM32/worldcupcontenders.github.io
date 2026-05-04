@@ -116,12 +116,13 @@ h2 {
 /* Style rules for button */
 button {
 	margin-top: 5%;
+	margin-bottom: 2%;
 }
 
 /* style rules for table content */
 table {
 	display: none;
-	max-width: 85%;
+	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #000;
@@ -132,8 +133,9 @@ th {
 }
 
 #videos, iframe {
-	width: 100%;
+	max-width: 90%;
 	height: 100%;
+	
 }
 
 /* style rules for article content */
@@ -163,7 +165,7 @@ fieldset {
 
 label, input {
 	padding: 2%;
-	margin: 2%
+	margin: 2%;
 }
 
 /* Styles for footer content */
