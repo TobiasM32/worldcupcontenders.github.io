@@ -6,7 +6,7 @@ Date: 12/14/2025
 
 // https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
 // makes the button show/hide the table of videos
-const button = document.getElementById("toggleVideos");
+const button = document.getElementById("toggleVids");
 const section = document.getElementById("kindermusikVid");
 
 button.addEventListener("click", () => {
