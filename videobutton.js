@@ -12,9 +12,9 @@ const section = document.getElementById("videos");
 button.addEventListener("click", () => {
     if (window.getComputedStyle(section).display === "none") {
         section.style.display = "block";
-        button.textContent = "See Videos about The World Cup";
+        button.textContent = "Hide Videos";
     } else {
         section.style.display = "none";
-        button.textContent = "Hide Videos";
+        button.textContent = "See Videos about The World Cup";
     }
 });
