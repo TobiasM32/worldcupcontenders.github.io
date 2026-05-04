@@ -116,6 +116,13 @@ h2 {
 /* style rules for table content */
 table {
 	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+}
+
+th {
+	color: #fff;
 }
 
 #videos, iframe {
