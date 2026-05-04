@@ -113,6 +113,11 @@ h2 {
 	grid-template-columns: auto auto;
 }
 
+/* Style rules for button */
+button {
+	margin-top: 5%;
+}
+
 /* style rules for table content */
 table {
 	max-width: 85%;
