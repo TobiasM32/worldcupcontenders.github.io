@@ -154,6 +154,8 @@ aside {
 /*Style rules for form content */
 form {
 	background-color: #fff7ef;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 fieldset {
