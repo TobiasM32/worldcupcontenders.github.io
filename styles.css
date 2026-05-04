@@ -120,6 +120,7 @@ button {
 
 /* style rules for table content */
 table {
+	display: none;
 	max-width: 85%;
 	margin-left: auto;
 	margin-right: auto;
