@@ -143,6 +143,22 @@ aside {
 	padding-right: 15%;
 }
 
+/*Style rules for form content */
+form {
+	background-color: #fff7ef;
+}
+
+fieldset {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 2%;
+}
+
+label, input {
+	padding: 2%;
+	margin: 2%
+}
+
 /* Styles for footer content */
 footer {
 	text-align: center;
