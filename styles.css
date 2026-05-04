@@ -29,8 +29,6 @@ div {
 	list-syle-type: none;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	position: sticky;
-	overflow: hidden;
 }
 
 /* Style rules for nav content */
@@ -116,7 +114,9 @@ h2 {
 /* Style rules for button */
 button {
 	margin-top: 5%;
-	margin-bottom: 2%;
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 /* style rules for table content */
@@ -348,7 +348,6 @@ footer {
     /* Desktop Viewport: Style rules for the main content */
     main {
 		font-size: 100%;
-		text-align: center;
         border-style: none;
         margin-bottom: 1em 0;
         overflow: auto;
