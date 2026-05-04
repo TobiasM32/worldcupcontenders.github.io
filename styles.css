@@ -152,6 +152,7 @@ fieldset {
 	display: grid;
 	grid-template-columns: auto auto;
 	padding: 2%;
+	margin: 2%;
 }
 
 label, input {
