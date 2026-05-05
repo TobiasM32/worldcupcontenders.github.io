@@ -3,16 +3,17 @@
 
 # Pages Included:
 
-  Home Page (index.html): Has an Overview of the FIFA World Cup, how to watch the World Cup, embedded videos about World Cup history and highlights, and A collapsible form where users can vote for who they think will win the 2026 World Cup.
+  # Home Page (index.html):
+    Has an Overview of the FIFA World Cup, how to watch the World Cup, embedded videos about World Cup history and highlights, and A collapsible     form where users can vote for who they think will win the 2026 World Cup.
 
-# Player Pages:
+  # Player Pages:
+  
+    Lionel Messi (messi.html)
+    Cristiano Ronaldo (ronaldo.html)
+    Kylian Mbappé (mbappe.html)
+    Lamine Yamal (lamineyamal.html)
 
-  Lionel Messi (messi.html)
-  Cristiano Ronaldo (ronaldo.html)
-  Kylian Mbappé (mbappe.html)
-  Lamine Yamal (lamineyamal.html)
-
-  Each had images, information, and embedded videos:
+    Each had images, information, and embedded videos:
 
 # Features:
 
