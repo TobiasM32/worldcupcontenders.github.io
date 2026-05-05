@@ -91,20 +91,20 @@
               <fieldset>
                   <legend>Your Information</legend>
                   <label for="firstName">First Name:</label>
-                  <input type="text" name="firstName" id="firstName" />
+                  <input type="text" name="firstName" id="firstName" required/>
                   <label for="lastName">Last Name:</label>
-                  <input type="text" name="lastName" id="lastName" />
+                  <input type="text" name="lastName" id="lastName" required/>
                   <label for="email">Email:</label>
-                  <input type="email" name="email" id="email" />
+                  <input type="email" name="email" id="email" required/>
                   <label for="phoneNum">Phone #:</label> 
-                  <input type="tel" id="phoneNum" name="phoneNum" />
+                  <input type="tel" id="phoneNum" name="phoneNum" required/>
               </fieldset>
               <fieldset>
                   <legend>Who You Think Will Win The World Cup</legend>
                   <label for="winner">Which country do you think will win the 2026 world cup?</label>
-                  <input type="text" name="winner" id="winner" />
-                  <label for="reason">Why do you think this country will win?</label>
-                  <textarea id="reason" name="reason" rows="3"></textarea>
+                  <input type="text" name="winner" id="winner" required/>
+                  <label for="reason">Why do you think this country will win (optional)?</label>
+                  <textarea id="reason" name="reason" rows="3" optional></textarea>
               </fieldset>
               <label for="favoriteTeam" class="form-label">Trivia: Who were the winners of the past three world cups? Select all that apply:</label>
               <select id="favoriteTeam" name="favoriteTeam[]" multiple required>
@@ -116,7 +116,6 @@
                 <option value="england">England</option>
                 <option value="germany">Germany</option>
               </select>
-              <legend>Trivia: What professional soccer club does Lionel Messi currently play for?</legend>
               <fieldset class="mb-3">
                 <legend class="form-label">Who is your favorite professional soccer player?</legend>
               
