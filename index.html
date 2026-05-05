@@ -30,22 +30,18 @@
         More World Cup Info
       </a>
       </p>
-      
-      <div class="collapse" id="wcInfo">
-        <div class="card card-body">
-          <section class="grid">
-            <article>
-              <h2>How to Watch</h2>
-              <p>The world cup can be viewed on some TV channels, like FOX and NBCUniversal, or you can watch it in person by ordering tickets.</p>
-              <aside>Fun Fact: The first world cup to ever be televised was the 1954 World Cup in Switzerland.</aside>
-            </article>
-            <article>
-              <h2>Where will the Upcoming World Cup take place?</h2>
-              <p>The next FIFA World Cup in 2026 will be the biggest and most wide‑ranging tournament ever, with major changes to the format, schedule, and host locations. There will be three co-hosts for the first time: The United States, Canada, and Mexico.</p>
-            </article>
-          </section>
-        </div>
-      </div> 
+  
+      <section class="grid">
+        <article>
+          <h2>How to Watch</h2>
+          <p>The world cup can be viewed on some TV channels, like FOX and NBCUniversal, or you can watch it in person by ordering tickets.</p>
+          <aside>Fun Fact: The first world cup to ever be televised was the 1954 World Cup in Switzerland.</aside>
+        </article>
+        <article>
+          <h2>Where will the Upcoming World Cup take place?</h2>
+          <p>The next FIFA World Cup in 2026 will be the biggest and most wide‑ranging tournament ever, with major changes to the format, schedule, and host locations. There will be three co-hosts for the first time: The United States, Canada, and Mexico.</p>
+        </article>
+      </section>
     <p>There are hundereds of amazing soccer players playing in the world cup, but I will only talk about who I think are the top four world cup contenders in recent time. To find out who these players are, click the links at the top. </p>
       <img src="images/WorldCup.jpg" alt="World Cup Trophy next to a Soccer Ball on a Soccer Field">
     <button id="toggleVids">See Videos about The World Cup</button>
@@ -87,7 +83,15 @@
         </td>
       </tr>
     </table>
-    <div id="form">
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#wcInfo" role="button">
+        More World Cup Info
+      </a>
+      </p>
+      
+      <div class="collapse" id="wcInfo">
+        <div class="card card-body">
+          <div id="form">
         <form class="form-grid">
           <fieldset>
               <legend>Your Information</legend>
@@ -107,7 +111,10 @@
               <label for="reason">Why do you think this country will win (optional)?</label>
               <input type="text" name="reason" id="reason" />
           </fieldset>
-      </form>
+        </form>
+
+        </div>
+      </div>   
     </div>
   </main>
 
