@@ -14,15 +14,34 @@
     </div>
   </header>
 
-  <nav>
-    <div class="navbar">
-      <li><a class="nav-link" href="index.html">Home Page</a></li>
-      <li><a class="nav-link" href="messi.html">Lionel Messi</a></li>
-      <li><a class="nav-link" href="ronaldo.html">Cristiano Ronaldo</a></li>
-      <li><a class="nav-link" href="mbappe.html">Kylian Mbappé</a></li>
-      <li><a class="nav-link" href="lamineyamal.html">Lamine Yamal</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Hidden brand</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <main>
     <p>The FIFA World cup (often called "The World Cup") is a competition of professional soccer teams from all over the world. each country in the globe can have up to one soccer team to participate. The winning team will take home the FIFA World Cup Trophy.</p>
@@ -108,5 +127,7 @@
     <p>Contact: <a href="mailto:tobias8@hawaii.edu">tobias8@hawaii.edu</a></p>
   </footer>
   <script src="videobutton.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
