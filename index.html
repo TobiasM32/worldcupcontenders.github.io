@@ -104,10 +104,10 @@
                   <label for="winner">Which country do you think will win the 2026 world cup?</label>
                   <input type="text" name="winner" id="winner" />
                   <label for="reason">Why do you think this country will win?</label>
-                  <input type="text" name="reason" id="reason" />
+                  <textarea id="reason" name="reason" rows="3"></textarea>
               </fieldset>
-              <label for="favoriteTeam" class="form-label">Trivia: Who was the winner of the past world cup?</label>
-              <select id="favoriteTeam" name="favoriteTeam" required>
+              <label for="favoriteTeam" class="form-label">Trivia: Who were the winners of the past three world cups? Select all that apply:</label>
+              <select id="favoriteTeam" name="favoriteTeam[]" multiple required>
                 <option value="brazil">Brazil</option>
                 <option value="france">France</option>
                 <option value="argentina">Argentina</option>
